@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/header'
 import Banner from '../components/banner'
-// import Grid from '../components/grid';
+import Grid from '../components/grid';
 import Footer from '../components/footer';
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
       <div className="home">
           <Header />
           <Banner />
-          {/* <Grid /> */}
+          <Grid />
 
           
           <Footer />
