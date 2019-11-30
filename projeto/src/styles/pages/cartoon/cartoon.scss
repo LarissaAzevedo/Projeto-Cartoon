@@ -1,0 +1,29 @@
+.cartoon{
+    padding: 0;
+    margin:0;
+
+    .conteudo_desenho{
+        background-color: cornflowerblue;
+        padding: 1vw;
+        margin: {
+            top: 2vw;
+            bottom: 2vw;
+        }
+
+        h2{
+            text-align: center;
+            text-transform: uppercase;  
+        }
+
+        img{
+            width: 100%;
+            border-radius: 5vw;
+        }
+
+        p{
+            padding:0;
+            margin: 2vw;
+            text-align: justify;
+        }
+    }
+}

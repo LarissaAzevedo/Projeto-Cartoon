@@ -1,9 +1,21 @@
 import React from 'react';
+import Header from '../components/header';
+import Footer from '../components/footer';
 
 function Favorites() {
     return (
       <div className="favorites">
-          <h2>Favorites funcionando</h2>
+           <Header />
+      <div className="container">
+        {/* <Banner /> */}
+        <br />
+        <br />
+        Página Favoritos sem banner e ainda sem nada
+        <br />
+        <br />
+        <br />
+      </div>
+      <Footer />
       </div>
     );
   }
