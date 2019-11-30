@@ -10,6 +10,8 @@ function Home() {
           <Header />
           <Banner />
           {/* <Grid /> */}
+
+          
           <Footer />
       </div>
     );
