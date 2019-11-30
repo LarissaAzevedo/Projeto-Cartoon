@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../../styles/pages/home';
 import Logo from '../../assets/images/logo_teste.png';
 
 function Header(){
@@ -7,6 +6,11 @@ function Header(){
         <div className="header">
             <img src={Logo} />
             Header funcionando
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Favoritos</a>
+                <a href="#">Home</a>
+            </nav>
         </div>
     )
 }
