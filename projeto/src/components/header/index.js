@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/images/logo_teste.png';
 
 function Header() {
@@ -7,8 +8,8 @@ function Header() {
             <div className="items_header">
                 <img src={Logo} />
                 <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Favoritos</a>
+                    <Link to="/" replace>Home</Link>
+                    <Link to="/favorites" replace>Favoritos</Link>
                 </nav>
             </div>
         </div>
