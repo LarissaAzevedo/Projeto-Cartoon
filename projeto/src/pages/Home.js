@@ -8,8 +8,8 @@ function Home() {
     return (
       <div className="home">
           <Header />
-          <Banner />
-          <Grid />
+          <Banner foto={"foto sei la"}/>
+          <Grid/>
 
           
           <Footer />
