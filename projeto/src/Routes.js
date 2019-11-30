@@ -1,9 +1,9 @@
 import React from 'react';
+import './styles/main.scss';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-
-import Home from './pages/Home'
-import Cartoon from './pages/Cartoon'
-import Favorites from './pages/Favorites'
+import Home from './pages/Home';
+import Cartoon from './pages/Cartoon';
+import Favorites from './pages/Favorites';
 
 function Routes() {
     return (

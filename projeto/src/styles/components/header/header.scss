@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: yellow;
+    padding: {
+        left: 10vw;
+        right: 10vw;
+        top: .5vw;
+        bottom: .5vw;
+    }
+
+    .items_header{
+        width: 80vw;
+        align-content: center;
+
+        nav{
+            width: 60%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            text-transform: uppercase;
+    
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 5vw;
+            }
+    
+            a:hover{
+                color: red;
+            }
+        }
+    
+        img{
+            // máximo no responsivo
+            height: 15vh;
+        }
+    }
+}

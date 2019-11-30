@@ -1,0 +1,48 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: yellow;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: .5vw;
+  padding-bottom: .5vw;
+}
+
+.header nav {
+  width: 15vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2vw;
+}
+
+.header nav a:hover {
+  color: red;
+}
+
+.header img {
+  height: 10vh;
+}
+/*# sourceMappingURL=header.css.map */

@@ -3,7 +3,7 @@ import React from 'react';
 function Banner(){
     return(
         <div className="banner">
-            banner funcionando
+            <p>banner funcionando</p>
         </div>
     )
 }
