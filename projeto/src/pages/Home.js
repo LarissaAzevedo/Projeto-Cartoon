@@ -5,16 +5,16 @@ import Banner from '../components/banner'
 import Footer from '../components/footer';
 
 function Home() {
-    return (
-      <div className="home">
-          <Header />
-          <Banner />
-          {/* <Grid /> */}
-
-          
-          <Footer />
+  return (
+    <div className="home">
+      <Header />
+      <div className="container">
+        <Banner />
+        {/* <Grid /> */}
       </div>
-    );
-  }
+      <Footer />
+    </div>
+  );
+}
 
 export default Home;

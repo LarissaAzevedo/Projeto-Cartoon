@@ -1,7 +1,5 @@
 .header{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     background-color: yellow;
     padding: {
         left: 10vw;
@@ -11,6 +9,9 @@
     }
 
     .items_header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
         width: 80vw;
         align-content: center;
 
@@ -35,6 +36,7 @@
         img{
             // máximo no responsivo
             height: 15vh;
+            align-self: center;
         }
     }
 }
