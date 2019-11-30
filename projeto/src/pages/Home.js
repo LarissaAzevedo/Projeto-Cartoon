@@ -1,14 +1,19 @@
 import React from 'react';
-import './App.css';
-import '../styles/components/header'
-import '../styles/components/banner'
-import '../styles/components/grid'
-import '../styles/components/footer'
+import Header from '../components/header';
+import Banner from '../components/banner';
+import Grid from '../components/grid';
+import Footer from '../components/footer';
 
-function App() {
+
+function Home() {
     return (
       <div className="Home">
-          <h2>teste</h2>
+
+        <Header />
+        <Banner />
+        <Grid />
+        <Footer />
+
       </div>
     );
   }
